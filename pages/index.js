@@ -1,5 +1,8 @@
 import Head from 'next/head'
+// import Hero from '../components/hero'
 import styles from '../styles/Home.module.css'
+
+console.log('My Application Version', process.env.PAGE_ID);
 
 export default function Home() {
   return (
@@ -10,9 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js</a> on Docker!
-        </h1>
+       
 
         <p className={styles.description}>
           Get started by editing{' '}
